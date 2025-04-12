@@ -1,15 +1,10 @@
 package com.calculator.entity;
 
-import jakarta.persistence.*;
-
 import java.time.LocalDateTime;
 
-@Entity
-@Table(name = "calculator")
+
 public class Calculation {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private Long operand1;
